@@ -1,0 +1,215 @@
+/* -------------------------------------navigation-------------------- */
+
+* {
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+
+nav {
+
+    display: flex;
+    background-color: lightgray;
+    justify-content: space-around;
+    height: 70px;
+    color:black;
+}
+nav .nav-left img {
+    width: 75px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 100px;
+    
+}
+
+header ul li a {
+    color: black;
+    font-weight: bold;
+    margin-right: 20px;
+
+}
+header ul li {
+    display:inline-block ;
+    align-items: justify;
+    margin-top: 25px;
+}
+
+
+nav .nav-right {
+    margin-right: 100px;
+}
+
+.btn-contact {
+    background-color: rgb(36, 39, 39);
+    color:#dbdbdb;
+    padding: 6px 20px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 15px;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+
+/* =======================.blog-form======= */
+.blog-form {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.input-image-content {
+    display: flex;
+    
+}
+.input-image-content img {
+    margin-left: 115%;
+    margin-top: 20px;
+    
+}
+.blog-form .form-container {
+    width: 500px;
+}
+.input-image-content .input-blog-image {
+    margin-right: 100px;
+    width: 500px;
+}
+.input-date {
+    display: flex;    
+    /* background-color: aquamarine; */
+    padding: 10px;
+}
+.input-date label{
+    /* background-color: rgb(193, 239, 29); */
+    padding: 10px;
+    column-width: 110px;
+    
+    
+}
+.blog-form .form-container h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.blog-form form label {
+    font-size: 18px;
+    font-weight: 300px;
+
+}
+p {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+.blog-form form input, textarea {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 8px;
+    margin-top: 7px;
+    margin-bottom: 20px;
+    background-color: rgb(247, 247, 247);
+    border: 1px solid rgb(205, 205, 205);
+    border-radius: 10px;
+    resize: none ;
+}
+
+.form-checkbox {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    width: 70%;
+    
+       
+}
+.form-checkbox .checkbox{
+    text-align:center;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 20px 10px;
+    
+
+}
+.btn-project {
+    
+        background-color: rgb(36, 39, 39);
+        color:#dbdbdb;
+        padding: 6px 20px;
+        border: none;
+        border-radius: 10px;
+        margin-top: 15px;
+        font-size: 15px;
+        cursor: pointer;
+        width: 50%;
+        height: 50px;
+        
+    
+}
+/* ===============Content========== */
+
+.container {
+    display: flex;
+    justify-content: center;
+  
+}
+.cards {
+   max-width: 300px;
+    margin: 10px;
+    background-color: rgb(222, 215, 228);
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.card-img img {
+    width: 100%;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-body h2 {
+    text-align: center;
+
+}
+.card-body a {
+    text-align: justify;
+    color: black;
+}
+
+.card-body .p1 {
+    
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 12px;
+    color: grey;
+    text-align: center;
+}
+.card-footer{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.card-footer button {
+    width: 75%;
+    height: 40px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    transition: 0.2s;
+    
+}
+
+.card-footer button:hover{
+    background-color:rgb(95, 86, 86);
+    color: black;
+    border: 2px solid rgb(95, 86, 86);
+
+}
